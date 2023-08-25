@@ -2,13 +2,14 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="lg:mx-[435px] flex justify-center">
+    <div className="bg-white">
+      <div className="lg:mx-[435px] flex justify-center">
       <div className="lg:w-[686px] p-[40px] lg:h-[720px]">
         <div className="text-center">
           <p className="mt-[24px] text-[16px] text-sky-500 font-bold leading-6 pt-8">
             Welcome
           </p>
-          <h1 className="text-[58px] font-bold leading-20 lg:px-24 mt-8">
+          <h1 className="text-[58px] font-bold leading-20 lg:px-24 mt-8 text-black">
             Know how to sell product
           </h1>
           <p className="text-[20px] leading-7 px-20 mt-8 font-sans text-gray-500">
@@ -21,6 +22,7 @@ export default function Banner() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
