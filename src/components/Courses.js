@@ -9,12 +9,14 @@ export default function Courses() {
    <div className="bg-white">
      <div className="lg:w-[1004px] mx-auto">
       <div className="lg:h-[928px] lg:py-[160px] py-[100px]">
+        <div className="">
         <p className="text-[14px] font-bold text-sky-600">Practice Advice</p>
         <h2 className="text-[40px] font-bold mt-1 text-black">Watch our Courses</h2>
         <p className="text-[14px] mt-px text-gray-500">
           Problems trying to resolve the conflict between
           <br /> the two major realms of Classical physics: Newtonian mechanics
         </p>
+        </div>
 
         <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center">
           <div className="lg:w-[501px] w-[470px] bg-white flex group overflow-hidden transition">

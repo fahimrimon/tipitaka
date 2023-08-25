@@ -9,7 +9,7 @@ import Navbar from './shared/Navbar';
 
 function App() {
   return (
-    <div className='overflow-x-hidden overflow-y-hidden'>
+    <div className='overflow-x-hidden'>
       <Navbar></Navbar>
       <Banner></Banner>
       <Packages></Packages>
