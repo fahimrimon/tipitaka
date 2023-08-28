@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="bg-white">
       <div className="lg:mx-[435px] flex justify-center">
-      <div className="lg:w-[686px] p-[40px] lg:h-[720px]">
+      <div className="lg:w-[686px] lg:p-[40px] p-[10px] lg:h-[720px]">
         <div className="text-center">
           <p className="mt-[24px] text-[16px] text-sky-500 font-bold leading-6 pt-8">
             Welcome

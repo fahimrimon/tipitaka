@@ -5,6 +5,7 @@ export default function Testimonial() {
     <div className="bg-white">
       <div className="lg:h-[988px] bg-[#B2E3FF]">
       <div className=" lg:py-[160px] py-[60px] lg:w-[1004px] mx-auto">
+        <div className="ml-4 lg:ml-0">
         <p className="text-[14px] font-bold text-sky-600">Practice Advice</p>
         <h2 className="text-[40px] font-bold mt-1 text-black">
           Each and every client is important.
@@ -13,6 +14,7 @@ export default function Testimonial() {
           Problems trying to resolve the conflict between
           <br /> the two major realms of Classical physics: Newtonian mechanics
         </p>
+        </div>
 
         <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center">
           <div className="lg:w-[501px] w-[400px] h-[438px] bg-white flex flex-col items-center justify-center">

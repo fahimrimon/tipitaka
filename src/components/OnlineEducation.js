@@ -11,8 +11,8 @@ export default function OnlineEducation() {
               src="https://www.kindpng.com/picc/m/419-4198380_man-laptop-working-vector-png-transparent-png.png"
               className="lg:w-[300px] lg:h-[300px] min-w-sm" alt=""
             />
-            <div className="">
-              <div className="w-24 h-2 bg-red-500"></div>
+            <div className="mt-4 lg:mt-0">
+              <div className="w-24 h-2 bg-red-500 hidden lg:block"></div>
               <h2 className="text-[40px] font-bold py-7 leading-10 text-black">
                 Make online education
               </h2>

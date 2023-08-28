@@ -9,7 +9,7 @@ export default function Courses() {
    <div className="bg-white">
      <div className="lg:w-[1004px] mx-auto">
       <div className="lg:h-[928px] lg:py-[160px] py-[100px]">
-        <div className="">
+        <div className="ml-8 lg:ml-0">
         <p className="text-[14px] font-bold text-sky-600">Practice Advice</p>
         <h2 className="text-[40px] font-bold mt-1 text-black">Watch our Courses</h2>
         <p className="text-[14px] mt-px text-gray-500">
@@ -19,14 +19,14 @@ export default function Courses() {
         </div>
 
         <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center">
-          <div className="lg:w-[501px] w-[470px] bg-white flex group overflow-hidden transition">
+          <div className="lg:w-[501px] full bg-white flex group overflow-hidden transition">
             <div className="lg:w-[209px] w-full relative group overflow-hidden transition">
               <img
                 className=" h-[400px] "
                 src="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
                 alt=""
               />
-              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
+              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] lg:left-[15%] sm:left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineHeart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineShoppingCart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiFillEye /></div>
@@ -77,14 +77,14 @@ only a keystroke away.</p>
           </div>
 
 
-          <div className="lg:w-[501px] w-[470px] bg-white flex group overflow-hidden transition">
+          <div className="lg:w-[501px] w-full bg-white flex group overflow-hidden transition">
             <div className="lg:w-[209px] w-full relative">
               <img
                 className="h-[400px] "
                 src="https://images.unsplash.com/photo-1543060829-a0029874b174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
                 alt=""
               />
-              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
+              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] lg:left-[15%] sm:left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineHeart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineShoppingCart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiFillEye /></div>

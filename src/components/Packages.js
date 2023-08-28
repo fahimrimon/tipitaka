@@ -6,10 +6,10 @@ export default function Packages() {
   return (
     <div className="bg-white">
       <div className="lg:mx-[435px] flex justify-center">
-      <div className="lg:h-[616px] py-[160px]">
-        <div className="lg:flex gap-[30px]">
-          <div className="w-full">
-            <div className="w-24 h-2 bg-red-500"></div>
+      <div className="lg:h-[616px] lg:py-[160px] py-[100px]">
+        <div className="lg:flex lg:gap-[30px]">
+          <div className="w-full ">
+            <div className="w-24 h-2 bg-red-500 hidden lg:block"></div>
             <h2 className="text-[40px] font-bold py-7 leading-10 text-black">
               Packages that are aprodable
             </h2>
@@ -23,7 +23,7 @@ export default function Packages() {
           </div>
           <div className="w-full my-10">
             <div className="flex">
-                <div className="w-[239px] pl-8">
+                <div className="lg:w-[239px] pl-8">
                     <div className="text-white bg-red-500 w-16 py-[22px] px-[19px] text-2xl rounded-lg">
                     <AiOutlineLink />
                     </div>
@@ -32,7 +32,7 @@ export default function Packages() {
             <p className="w-[132px] text-[14px] text-gray-500">The gradual accumulation of information about</p>
                 </div>
 
-                <div className="w-[239px] pl-8">
+                <div className="lg:w-[239px] pl-8">
                 <div className="text-white bg-red-500 w-16 py-[22px] px-[19px] text-2xl rounded-lg">
                     <HiOutlineDatabase />
                     </div>
