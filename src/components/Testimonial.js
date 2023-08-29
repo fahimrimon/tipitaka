@@ -20,8 +20,8 @@ export default function Testimonial() {
 
         {/* <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 gap-3.5 justify-items-center"> */}
         <div className="mt-24 lg:flex items-center justify-center gap-3.5">
-          <div className="h-[438.01px] w-1 bg-white"></div>
-          <div className="lg:w-[501px] w-[400px] h-[438.01px] bg-white flex flex-col items-center justify-center">
+          <div className="h-[438.01px] w-1 bg-white hidden lg:block"></div>
+          <div className="lg:w-[501px] w-[400px] h-[438.01px] bg-white flex flex-col items-center justify-center mx-auto">
             <img className="h-[128px] w-[128px] rounded-full mb-6" src={img1} alt="" />
             <p style={{letterSpacing: "0.2px", lineHeight:"20px"}} className="text-[14px] w-[159px] font-montserrat font-normal text-gray-500 text-center">
               Slate helps you see how many more days you need to work to reach
@@ -60,7 +60,7 @@ export default function Testimonial() {
               <p className="text-[14px] font-bold text-gray-400 mt-1">Designer</p>
           </div>
 
-          <div className="lg:w-[501px] w-[400px] h-[438.01px] bg-white flex flex-col items-center justify-center">
+          <div className="lg:w-[501px] w-[400px] h-[438.01px] bg-white flex flex-col items-center justify-center mt-4 lg:mt-0 mx-auto">
           <img className="h-[128px] w-[128px] rounded-full mb-6" src={img2} alt="" />
             <p style={{letterSpacing: "0.2px", lineHeight:"20px"}} className="text-[14px] w-[159px] font-montserrat font-normal text-gray-500 text-center">
               Slate helps you see how many more days you need to work to reach
@@ -98,7 +98,7 @@ export default function Testimonial() {
               <p className="text-[16px] font-bold">Regina Miles</p>
               <p className="text-[14px] text-gray-400 font-bold mt-1">Designer</p>
           </div>
-          <div className="h-[438.01px] w-1 bg-white"></div>
+          <div className="h-[438.01px] w-1 bg-white hidden lg:block"></div>
         </div>
 
         

@@ -3,6 +3,8 @@ import { AiOutlineDownload, AiOutlineBarChart, AiOutlineAreaChart } from 'react-
 import { BsStopwatch } from 'react-icons/bs';
 import { FaAngleRight } from 'react-icons/fa';
 import { AiOutlineHeart, AiOutlineShoppingCart, AiFillEye } from 'react-icons/ai';
+import product1 from "../../src/assets/Images/product1.png"
+import product2 from "../../src/assets/Images/product2.png"
 
 export default function Courses() {
   return (
@@ -22,11 +24,11 @@ export default function Courses() {
           <div className="lg:w-[501px] full bg-white flex group overflow-hidden transition">
             <div className="lg:w-[209px] w-full relative group overflow-hidden transition">
               <img
-                className=" h-[400px] "
-                src="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+                className=" h-[378px] object-contain"
+                src={product1}
                 alt=""
               />
-              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] lg:left-[15%] sm:left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
+              <div className="absolute -bottom-[20%] group-hover:bottom-[9%] lg:left-[15%] sm:left-[15%] md:left-[10%] flex items-center justify-center space-x-3 transition-all duration-500">
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineHeart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineShoppingCart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiFillEye /></div>
@@ -53,38 +55,38 @@ export default function Courses() {
                 </div>
               </div>
                
-               <h1 className="text-[16px] font-bold my-3">Graphic Design</h1>
-               <p className="text-[14px] lg:w-[242px] text-gray-400 mb-3">We focus on ergonomics and 
+               <h1 className="text-[16px] font-bold my-2">Graphic Design</h1>
+               <p className="text-[14px] lg:w-[242px] text-gray-400 mb-3 font-montserrat">We focus on ergonomics and 
 meeting you where you work. It's 
 only a keystroke away.</p>
  
-            <div className="flex text-[14px] font-bold items-center space-x-2 mb-6">
+            <div className="flex text-[14px] font-bold items-center space-x-2 mb-4">
                 <p><AiOutlineDownload /></p>
                 <p className="text-gray-500">15 Sales</p>
                 </div>            
                  
                  <p className="text-[16px] font-bold"><span className="text-gray-400">$16.48</span> <span className="text-[#40BB15]">$6.48</span></p>
 
-              <div className="flex items-center space-x-2 mt-8">
+              <div className="flex items-center space-x-2 mt-6">
                 <p className="flex items-center gap-1 text-xs"><span className=" text-sky-500 "><BsStopwatch /></span> <span className="text-gray-400 ">22h...</span></p>
                 <p className="flex items-center gap-1 text-xs"><span className=" text-[#E77C40] "><AiOutlineBarChart /></span> <span className="text-gray-400 ">64 Lessons</span></p>
                 <p className="flex items-center gap-1 text-xs"><span className=" text-[#40BB15] "><AiOutlineAreaChart /></span> <span className="text-gray-400 ">Progress</span></p>
               </div>
 
-              <button className="px-[20px] py-[10px] text-[14px] font-bold text-[#23A6F0] border border-[#23A6F0] rounded-full flex items-center gap-1 mt-8">Learn More <span className="text-xl"><FaAngleRight /></span></button>
+              <button className="px-[20px] py-[10px] text-[14px] font-bold text-[#23A6F0] border border-[#23A6F0] rounded-full flex items-center gap-1 mt-6">Learn More <span className="text-xl"><FaAngleRight /></span></button>
 
             </div>
           </div>
 
 
-          <div className="lg:w-[501px] w-full bg-white flex group overflow-hidden transition">
-            <div className="lg:w-[209px] w-full relative">
+          <div className="lg:w-[501px] full bg-white flex group overflow-hidden transition">
+            <div className="lg:w-[209px] w-full relative group overflow-hidden transition">
               <img
-                className="h-[400px] "
-                src="https://images.unsplash.com/photo-1543060829-a0029874b174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                className=" h-[378px] object-contain"
+                src={product2}
                 alt=""
               />
-              <div className="absolute -bottom-[20%] group-hover:bottom-[6%] lg:left-[15%] sm:left-[15%] flex items-center justify-center space-x-3 transition-all duration-500">
+              <div className="absolute -bottom-[20%] group-hover:bottom-[9%] lg:left-[15%] sm:left-[15%] md:left-[10%] flex items-center justify-center space-x-3 transition-all duration-500">
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineHeart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiOutlineShoppingCart /></div>
                 <div className="h-[40px] w-[40px] text-xl bg-white rounded-full flex items-center justify-center cursor-pointer"><AiFillEye /></div>
@@ -111,25 +113,25 @@ only a keystroke away.</p>
                 </div>
               </div>
                
-               <h1 className="text-[16px] font-bold my-3">Graphic Design</h1>
-               <p className="text-[14px] lg:w-[242px] text-gray-400 mb-3">We focus on ergonomics and 
+               <h1 className="text-[16px] font-bold my-2">Graphic Design</h1>
+               <p className="text-[14px] lg:w-[242px] text-gray-400 mb-3 font-montserrat">We focus on ergonomics and 
 meeting you where you work. It's 
 only a keystroke away.</p>
  
-            <div className="flex text-[14px] font-bold items-center space-x-2 mb-6">
+            <div className="flex text-[14px] font-bold items-center space-x-2 mb-4">
                 <p><AiOutlineDownload /></p>
                 <p className="text-gray-500">15 Sales</p>
                 </div>            
                  
                  <p className="text-[16px] font-bold"><span className="text-gray-400">$16.48</span> <span className="text-[#40BB15]">$6.48</span></p>
 
-              <div className="flex items-center space-x-2 mt-8">
+              <div className="flex items-center space-x-2 mt-6">
                 <p className="flex items-center gap-1 text-xs"><span className=" text-sky-500 "><BsStopwatch /></span> <span className="text-gray-400 ">22h...</span></p>
                 <p className="flex items-center gap-1 text-xs"><span className=" text-[#E77C40] "><AiOutlineBarChart /></span> <span className="text-gray-400 ">64 Lessons</span></p>
                 <p className="flex items-center gap-1 text-xs"><span className=" text-[#40BB15] "><AiOutlineAreaChart /></span> <span className="text-gray-400 ">Progress</span></p>
               </div>
 
-              <button className="px-[20px] py-[10px] text-[14px] font-bold text-[#23A6F0] border border-[#23A6F0] rounded-full flex items-center gap-1 mt-8">Learn More <span className="text-xl"><FaAngleRight /></span></button>
+              <button className="px-[20px] py-[10px] text-[14px] font-bold text-[#23A6F0] border border-[#23A6F0] rounded-full flex items-center gap-1 mt-6">Learn More <span className="text-xl"><FaAngleRight /></span></button>
 
             </div>
           </div>
