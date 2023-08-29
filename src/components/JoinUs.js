@@ -4,11 +4,11 @@ export default function JoinUs() {
   return (
    <div className="bg-white">
      <div className="lg:mx-[435px] flex justify-center">
-      <div className="lg:h-[594px] py-[50px]">
+      <div className="lg:h-[594px] lg:py-[160px] py-[100px]">
         <div className="lg:w-[492px] text-center">
           <p className="text-[14px] font-bold text-sky-500">Practice Advice</p>
           <p className="text-[40px] font-bold my-2 text-black">JOIN US</p>
-          <p className="text-[14px] text-gray-500">
+          <p className="text-[14px] text-gray-400 font-montserrat">
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </p>

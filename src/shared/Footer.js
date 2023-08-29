@@ -8,7 +8,7 @@ export default function Footer() {
             <div>
               <h2 className="text-[32.58px] text-black font-bold">Get In Touch</h2>
               <div className="mt-4">
-                <p className="text-[19.1px] text-gray-500 w-[90%]">the quick fox jumps over the 
+                <p className="text-[19.1px] text-gray-500 w-[90%] font-montserrat">The quick fox jumps over the 
                       lazy dog</p>
                 <div className="flex items-center space-x-6 mt-6">
                 <p className="text-2xl text-[#23A6F0] font-bold cursor-pointer"><BsFacebook /></p>
@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div>
               <h2 className="text-[32.58px] text-black font-bold">Company info</h2>
-              <div className="flex flex-col space-y-2 mt-4">
+              <div className="flex flex-col space-y-2 mt-4 font-montserrat">
                 <p className="text-[19.1px] text-gray-500 font-bold">About Us</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">Carrier</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">We are hiring</p>
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div>
               <h2 className="text-[32.58px] text-black font-bold">Features</h2>
-              <div className="flex flex-col space-y-2 mt-4">
+              <div className="flex flex-col space-y-2 mt-4 font-montserrat">
                 <p className="text-[19.1px] text-gray-500 font-bold">Business Marketing</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">User Analytic</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">Live Chat</p>
@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
             <div>
               <h2 className="text-[32.58px] text-black font-bold">Resources</h2>
-              <div className="flex flex-col space-y-2 mt-4">
+              <div className="flex flex-col space-y-2 mt-4 font-montserrat">
                 <p className="text-[19.1px] text-gray-500 font-bold">IOS & Android</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">Watch a Demo</p>
                 <p className="text-[19.1px] text-gray-500 font-bold">Customers</p>
